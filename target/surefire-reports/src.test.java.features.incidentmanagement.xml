@@ -1,0 +1,15 @@
+<testsuite failures="1" name="src/test/java/features/incidentmanagement.feature" skipped="0" tests="1" time="0.001531">
+  <testcase classname="src.test.java.features.incidentmanagement" name="Incident The Mangemant" time="0.001531">
+    <failure message="incidentmanagement.feature:6 - no step-definition method match found for: header Authorization ='Basic YWRtaW46eDVnMmVpQlJOZlFZ'">Given url 'https://dev117099.service-now.com/api/now/table/incident' ...... passed
+And header Authorization ='Basic YWRtaW46eDVnMmVpQlJOZlFZ' ................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: incidentmanagement.feature:6 - no step-definition method match found for: header Authorization ='Basic YWRtaW46eDVnMmVpQlJOZlFZ'&#13;
+	at ✽.And header Authorization ='Basic YWRtaW46eDVnMmVpQlJOZlFZ' (incidentmanagement.feature:6)&#13;
+
+And header accept='application/json' ...................................... skipped
+And param sysparm_fields='sys_id,short_description,number,category' ....... skipped
+When method get ........................................................... skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+</testsuite>
